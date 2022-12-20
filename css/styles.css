@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: #212121;
+}
+
+.hero {
+  width: 1400px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px dashed #2a2a2a;
+  border-radius: 4px;
+  background-image: linear-gradient(rgba(25, 38, 38, 0.2), rgba(25, 38, 38, 0.2)), url(../img/photo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-title {
+  background-color: blue;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.hero-list {
+  list-style: none;
+  margin-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+.hero-item {
+  width: 250px;
+  height: 80px;
+  background-image: linear-gradient(blue, yellow);
+  border-radius: 10px;
+  text-align: center;
+  margin: 30px;
+  padding: 20px;
+}
+.litreche {
+  color: white;
+}
